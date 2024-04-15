@@ -1,0 +1,49 @@
+body{
+	background-color: rgb(155, 240, 240);
+	text-align: center;
+	
+	/* display: flex;
+	justify-content: center; */
+} 
+h3{
+
+	margin-top: 80px;
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+	margin-top: 80px;
+	
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+ div{
+	 height: 430px; 
+	 width: 40%; 
+	 border: 3px black solid; 
+	margin: auto;
+	border-radius: 15px;
+	box-shadow: 3px 4px 4px 4px rgb(56,84,56);
+	margin-top: 30px;
+	
+}
+button{
+	
+	width: 150px;
+	height: 30px;
+	margin-top: 10px;
+	font-size: 19px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	border: none;
+    outline: none;
+	border-radius: 5px;
+	box-shadow: 1px 3px 3px rgb(56,84,56);
+	cursor: pointer;
+	transition: 0.3s;
+}
+button:active{
+	box-shadow: 0 0 0 0;
+	background-color: black;
+	color: blanchedalmond;
+	
+}
